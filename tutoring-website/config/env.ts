@@ -1,5 +1,7 @@
 // src/config/env.ts
 export const env = {
+  API_URL: process.env.NEXT_PUBLIC_API_URL || 'http://localhost:3000',
+  ENVIRONMENT: process.env.NODE_ENV || 'development',
   MONGO_URI: process.env.MONGO_URI,
   JWT_SECRET: process.env.JWT_SECRET,
   EMAIL_HOST: process.env.EMAIL_HOST,
