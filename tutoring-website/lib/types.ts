@@ -1,5 +1,12 @@
 // src/lib/types.ts
-import { Document, Types } from 'mongoose';
+import type { Document, Types } from 'mongoose';
+
+export type PublicUser = {
+  id: string;
+  username: string;
+  email: string;
+  role: 'pending' | 'user' | 'admin';
+};
 
 export interface IUser extends Document {
   username: string;

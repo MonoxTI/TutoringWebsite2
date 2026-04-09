@@ -15,6 +15,7 @@ export default function AuthLayout({
     <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-green-600 to-blue-600">
       <div className="bg-white rounded-lg shadow-xl p-8 w-full max-w-md">
         {children}
+        
       </div>
     </div>
   );
