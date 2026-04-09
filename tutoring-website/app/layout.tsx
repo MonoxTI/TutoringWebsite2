@@ -3,7 +3,7 @@ import type { Metadata } from 'next';
 import './globals.css';
 import { AuthProvider } from '@/components/Auth/AuthProvider';
 import Navbar from '@/components/Navigation/Navbar';
-import Footer from '@/components/Navigation/Home/Footer';
+import Footer from '@/components/Home/Footer';
 
 export const metadata: Metadata = {
   title: 'Tutoring Website',
