@@ -27,3 +27,6 @@ npm-debug.log*
 
 # Test files
 Server/test-email.js
+
+.vercel
+.env*.local
