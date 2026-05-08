@@ -75,9 +75,13 @@ export default function ServicesPage() {
 
       {/* Pricing table */}
       <section style={{
-        background: "linear-gradient(180deg, #0a1628 0%, #0d1f3c 100%)",
+        background: "linear-gradient(135deg, #000 0%, #0a1628 40%, #1d4ed8 100%)",
         color: "#fff",
-        padding: "clamp(3rem,6vw,5rem) clamp(1.5rem,6vw,5rem)",
+        padding: "clamp(5rem,10vw,8rem) clamp(1.5rem,6vw,5rem) 4rem",
+        position: "relative", overflow: "hidden",background: "linear-gradient(135deg, #000 0%, #0a1628 40%, #1d4ed8 100%)",
+        color: "#fff",
+        padding: "clamp(5rem,10vw,8rem) clamp(1.5rem,6vw,5rem) 4rem",
+        position: "relative", overflow: "hidden",
       }}>
         <div style={{ maxWidth: 900, margin: "0 auto" }}>
 
