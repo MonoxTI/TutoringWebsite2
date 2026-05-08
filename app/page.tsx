@@ -123,7 +123,7 @@ export default function HomePage() {
           opacity: 0.08, pointerEvents: "none",
         }}>
           <img
-            src="/images/logo.png"
+            src="/images/LOGO.png"
             alt=""
             style={{ height: "clamp(200px,35vw,500px)", width: "auto" }}
           />
